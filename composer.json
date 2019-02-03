@@ -1,0 +1,15 @@
+{
+    "name": "fed/plugins-owl-carousel",
+    "type": "ewma-module",
+    "description": "ewma owlCarousel plugin",
+    "authors": [
+        {
+            "name": "fed",
+            "email": "ewmafw@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "fed/ewma-module-installer-plugin": "~0.0.1"
+    }
+}
