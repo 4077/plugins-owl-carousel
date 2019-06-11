@@ -2,6 +2,13 @@
 
 class Main extends \Controller
 {
+    public function load()
+    {
+        $this->js('owl.carousel');
+        $this->css('owl.carousel');
+        $this->css('owl.theme.default');
+    }
+
     public function bind()
     {
         $this->js('owl.carousel');
